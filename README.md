@@ -1,4 +1,18 @@
-# git-aliases
+# Useful aliases for Git
+
+###### `cm`
+- adds **_all_** files (added, deleted and modified) and performs commit with your description
+
+usage: `git cm "<your commit description>"` 
+
+---
+
+`e`
+- opens global _.gitconfig_ file in default editor (e.g. vim)
+
+usage: `git e`
+
+---
 
 ### Useful links:
 * **https://git-scm.com/book/en/v2/Git-Basics-Git-Aliases**
