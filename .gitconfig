@@ -11,3 +11,4 @@
     d = diff
     co = checkout
     e = config --global -e
+    uncom = reset HEAD~
