@@ -4,11 +4,13 @@
     ll = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --numstat
     lds = log --pretty=format:"%C(yellow)%h\\ %ad%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --date=short
     
-    # commit commands:
+    # adds all files (added, deleted and modified) and performs commit with your <commit description>
     cm = !git add -A && git commit -m  # usage: git cm <commit description>
     
     # other commands:
     d = diff
     co = checkout
+    # open global .gitconfig file in default editor (e.g. vim)
     e = config --global -e
+    # reset last commit
     uncom = reset HEAD~
